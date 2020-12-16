@@ -10,7 +10,7 @@ public class Array {
         }
 int mult =myArray[0];
         for (int j = 1; j < myArray.length; j++) {
-            mult = mult + myArray[j];
+            mult = mult*myArray[j];
 
         }
 
